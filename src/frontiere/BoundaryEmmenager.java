@@ -1,7 +1,6 @@
 package frontiere;
 
 import controleur.ControlEmmenager;
-
 public class BoundaryEmmenager {
 	private ControlEmmenager controlEmmenager;
 
@@ -27,9 +26,10 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
-					break;
-
+					System.out.println("Bienvenu villageois"+nomVisiteur);
+					 StringBuilder question2 = new StringBuilder();
+					question2.append("Quelle est votre force :\n");
+					int forceDruide= Clavier.entrerEntier(question2.toString());
 				default:
 					System.out
 							.println("Vous devez choisir le chiffre 1 ou 2 !");
@@ -40,6 +40,19 @@ public class BoundaryEmmenager {
 	}
 
 	private void emmenagerDruide(String nomVisiteur) {
-		//TODO a completer
+		System.out.println("Bienvenu deruide"+nomVisiteur);
+		StringBuilder question3 = new StringBuilder();
+		question3.append("Quelle est votre force :\n");
+		int forceDruide= Clavier.entrerEntier(question3.toString());
+		if() {
+			StringBuilder question4 = new StringBuilder();
+			question4.append("Quelle est la force la plus faible que vous produissez:\n");
+			int effetPostionMin= Clavier.entrerEntier(question4.toString());
+			
+			StringBuilder question5 = new StringBuilder();
+			question4.append("Quelle est la force la plus forte que vous produissez:\n");
+			int effetPostionMax= Clavier.entrerEntier(question4.toString());
+		}
 	}
+	
 }
