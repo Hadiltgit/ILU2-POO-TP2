@@ -20,7 +20,7 @@ public class BoundaryLibererEtal {
 				 String produit = donneesEtal[2];
 				 String quantiteIninitial = donneesEtal[3];
 				 String quantiteVendu = donneesEtal[4];
-				 System.out.println("Vous avez vendu"+quantiteVendu+"sur"+quantiteIninitial+""+produit+".n");
+				 System.out.println("Vous avez vendu "+quantiteVendu+" sur "+quantiteIninitial+" "+produit+".");
 				 System.out.println("En revoir "+nomVendeur+" passez une bonne journnée");
 			 }
 		 }
