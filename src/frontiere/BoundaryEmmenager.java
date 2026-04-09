@@ -1,3 +1,4 @@
+
 package frontiere;
 
 import controleur.ControlEmmenager;
