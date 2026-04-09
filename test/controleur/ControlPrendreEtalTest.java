@@ -35,6 +35,7 @@ class ControlPrendreEtalTest {
 
 	@Test
 	void testPrendreEtal() {
+		assertT
 		fail("Not yet implemented");
 	}
 

@@ -27,7 +27,7 @@ public class BoundaryAcheterProduit {
 			       case 1 :Scanner produit = new Scanner(System.in);
 			    	       System.out.println("Quel produit voulez-vous acheter ?");
 			    	       //TODO a complété
-			               //String produit = produit.nextLine(); 
+			               //String produit = produit.nextLine();  
 			       case 2 :
 			       case 3 :
 			       default : System.out.println("Vous devez choisir le chifre 1 ou 2 ou 3");
