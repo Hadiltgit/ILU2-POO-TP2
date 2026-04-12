@@ -2,6 +2,7 @@
 package frontiere;
 
 import controleur.ControlPrendreEtal;
+import java.util.Scanner;
 
 public class BoundaryPrendreEtal {
 	private ControlPrendreEtal controlPrendreEtal;
@@ -17,9 +18,10 @@ public class BoundaryPrendreEtal {
 		question.append("Quel produit souhaitez vous vrendre \n");
 		String produit = Clavier.entrerChaine(question.toString());
 		
-		StringBuilder question2 = new StringBuilder();
-		question2.append("Combien souhaitez vous en vrendre \n");
-		int nbProduit = Clavier.entrerEntier(question2.toString());
+		Scanner clavier = new Scanner(System.in);
+	    System.out.println("Combien souhaitez vous en vrendre \n");
+	    int nbProduit = clavier.nextInt(); 
+		
 		int numeroEtal = controlPrendreEtal.prendreEtal(nomVendeur,produit,nbProduit);
 		
 		if(numeroEtal != -1) {
