@@ -32,7 +32,6 @@ public class ControlLibererEtal {
 		if(etal != null) {
 			return  etal.etatEtal();
 		}
-		
 		return null;
 	}
 

@@ -47,6 +47,17 @@ class ControlAfficherVillageTest {
 		ControlAfficherVillage controlAfficherVillage = new ControlAfficherVillage(village);
 		assertEquals(5, controlAfficherVillage.donnerNbEtals());
 	}
+	
 
+	@Test
+	void testAfficherVendeursProduit() {
+		ControlAfficherVillage controlAfficherVillage = new ControlAfficherVillage(village);
+		Gaulois gaulois = new Gaulois("obelix", 10);
+		village.ajouterHabitant(gaulois);
+		village.installerVendeur(gaulois, "fleurs" , 10 ); 
+		assertArrayEquals(   village.rechercherVendeursProduit("fleurs")    , controlAfficherVillage.afficherVendeursProduit("fleurs"));
+	}
+	
+	
 	
 }

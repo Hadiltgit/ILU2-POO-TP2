@@ -50,5 +50,5 @@ public class BoundaryAcheterProduit {
 			    }else {
 			              System.out.println("Je  suis désolée "+nomAcheteur+" mais il faut être un habitant de notre village pour commercer ici.");
 		        }
-	}
+	} 
 }
