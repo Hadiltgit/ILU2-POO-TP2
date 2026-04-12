@@ -29,6 +29,7 @@ public class BoundaryAcheterProduit {
 			    switch (choix) {
 			       case 1 :Scanner clavier = new Scanner(System.in);
 			    	       System.out.println("Quel produit voulez-vous acheter ?");
+<<<<<<< HEAD
 			               String produit = clavier.nextLine(); 
 			               
 			               
@@ -51,6 +52,10 @@ public class BoundaryAcheterProduit {
 			               
 			               
 			               System.out.println(nomAcheteur+" achète "+nbr_produit+" "+produit+" à "+nomVendeur);
+=======
+			    	       //TODO a complété
+			               //String produit = produit.nextLine();  
+>>>>>>> 696c4742c2e7fd9a90f48f1bb5ca98d91896ccef
 			       case 2 :
 			       case 3 :
 			       default : System.out.println("Vous devez choisir le chifre 1 ou 2 ou 3");
