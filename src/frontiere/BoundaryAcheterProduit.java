@@ -4,9 +4,6 @@ package frontiere;
 import controleur.ControlAcheterProduit;
 import personnages.Gaulois;
 
-
-import java.util.Scanner;
-
 public class BoundaryAcheterProduit {
 	private ControlAcheterProduit controlAcheterProduit;
 

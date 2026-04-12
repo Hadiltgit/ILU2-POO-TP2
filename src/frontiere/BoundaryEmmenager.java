@@ -2,7 +2,6 @@
 package frontiere;
 
 import controleur.ControlEmmenager;
-import java.util.Scanner;
 
 public class BoundaryEmmenager {
 	private ControlEmmenager controlEmmenager;

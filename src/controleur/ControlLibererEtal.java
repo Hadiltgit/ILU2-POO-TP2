@@ -1,7 +1,5 @@
 
 package controleur;
-
-import personnages.Gaulois;
 import villagegaulois.Etal;
 
 public class ControlLibererEtal {
@@ -31,8 +29,11 @@ public class ControlLibererEtal {
 	 */
 	public String[] libererEtal(String nomVendeur) {
 		Etal etal = controlTrouverEtalVendeur. trouverEtalVendeur(nomVendeur);
-		String[] donneesEtal = etal.etatEtal();
-		return donneesEtal;
+		if(etal != null) {
+			return  etal.etatEtal();
+		}
+		
+		return null;
 	}
 
 }
