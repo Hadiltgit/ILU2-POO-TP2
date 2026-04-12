@@ -18,9 +18,7 @@ public class BoundaryPrendreEtal {
 		question.append("Quel produit souhaitez vous vrendre \n");
 		String produit = Clavier.entrerChaine(question.toString());
 		
-		Scanner clavier = new Scanner(System.in);
-	    System.out.println("Combien souhaitez vous en vrendre \n");
-	    int nbProduit = clavier.nextInt(); 
+		int nbProduit = Clavier.entrerEntier("Combien souhaitez-vous en vendre ?");
 		
 		int numeroEtal = controlPrendreEtal.prendreEtal(nomVendeur,produit,nbProduit);
 		

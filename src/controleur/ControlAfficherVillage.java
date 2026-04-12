@@ -1,6 +1,7 @@
 
 package controleur;
 
+import personnages.Gaulois;
 import villagegaulois.Village;
 
 public class ControlAfficherVillage {
@@ -20,5 +21,9 @@ public class ControlAfficherVillage {
 
 	public int donnerNbEtals() {
 		return village.donnerNbEtal();
+	}
+	
+	public Gaulois[] afficherVendeursProduit(String produit) {
+	    return  village.rechercherVendeursProduit(produit);
 	}
 }

@@ -52,10 +52,8 @@ public class Scenario {
 				controlChercherEtal);
 		BoundaryLibererEtal boundaryLibererEtal = new BoundaryLibererEtal(
 				controlLibererEtal);
-		BoundaryAcheterProduit boundaryAcheterProduit = new BoundaryAcheterProduit(
-				controlAcheterProduit);
-		BoundaryAfficherMarche boundaryAfficherMarche = new BoundaryAfficherMarche(
-				controlAfficherMarche);
+		BoundaryAcheterProduit boundaryAcheterProduit = new BoundaryAcheterProduit(controlAcheterProduit);
+		BoundaryAfficherMarche boundaryAfficherMarche = new BoundaryAfficherMarche(controlAfficherMarche);
 		BoundaryLeVillage boundaryLeVillage = new BoundaryLeVillage(
 				boundaryAfficherVillageois, boundaryEmmenager,
 				boundaryChercherEtal, boundaryLibererEtal,
