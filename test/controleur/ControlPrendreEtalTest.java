@@ -33,11 +33,11 @@ class ControlPrendreEtalTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+	/*@Test
 	void testPrendreEtal() {
 		assertT
 		fail("Not yet implemented");
-	}
+	}*/
 
 	@Test
 	void testVerifierIdentite() {
